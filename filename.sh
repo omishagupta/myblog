@@ -1,2 +1,2 @@
-read "Enter the filename" $filename
-touch $filename
+read -p "Enter the filename" filename
+echo "Hey, there!" > $filename
